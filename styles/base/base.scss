@@ -1,0 +1,22 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+  
+   .container{
+    // background: $dark-blue;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $m-size;
+    margin: 0, auto;
+    max-height: 100vh;
+    overflow: visible;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    cursor: default;
+  }
+  
